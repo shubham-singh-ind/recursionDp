@@ -1,0 +1,25 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int dp[101][101];
+int coinChange(int ar[], int sum, int n) {
+    //Base case: smallest valid value's output
+    if(n == 0)
+        return 0;
+    if(sum == 0)
+        return 1;
+    int &s = dp[n][sum];
+    if(s != -1) return s;
+    if(ar[n-1] <= sum) {
+        s = coinChange(ar, sum-ar[n-1], n) + coinChange(ar, sum, n-1);
+    } else {
+        s = coinChange(ar, sum, n-1);
+    }
+    return s;
+}
+int main() {
+    int ar[] = {1,2,3};
+    memset(dp, -1, sizeof(dp));
+    cout << coinChange(ar, 5, 3);
+	return 0;
+}
