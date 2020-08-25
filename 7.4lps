@@ -1,0 +1,30 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int dp[101][101];
+string A, B;
+int lcs(int n1, int n2) {
+    if(n1==0 || n2==0) return 0;
+    int &s = dp[n1][n2];
+    if(s != -1) return s;
+    if(A[n1-1] == B[n2-1])
+        s = 1 + lcs(n1-1, n2-1);
+    else
+        s = max(lcs(n1-1, n2), lcs(n1, n2-1));
+    return s;
+}
+
+int lps() {
+    B = A;
+    memset(dp, -1, sizeof(dp));
+    reverse(B.begin(), B.end());
+    return lcs(A.size(), B.size());
+}
+
+int main() {
+    // Given a string, find Longest palindromic subsequence
+    // It is nothing but lcs of given string and reverse of it
+    A = "agbcba";
+    cout << lps();
+	return 0;
+}
