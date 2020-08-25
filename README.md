@@ -18,3 +18,4 @@
 12. Longest common substring
 13. Smallest common supersequence
 14. Minimum insertion and deletion required to convert string A to B
+15. LPS (Longest palindromic subsequence)
