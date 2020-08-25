@@ -1,5 +1,5 @@
 # RecursionDp
-## Trick: Out of Input, Question, Output if 2/3 pattern matches, that means somewhere it is repeated
+## Trick: Out of Input, Question, Output if 2/3 pattern matches, that means somewhere it is repeated.
 ## How to Identify DP Problem?
 ### Problem should have one of below 2 options:
 ### 1. Choice OR
