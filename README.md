@@ -19,3 +19,4 @@
 13. Smallest common supersequence
 14. Minimum insertion and deletion required to convert string A to B
 15. LPS (Longest palindromic subsequence)
+16. Minimum number of deletions to make a string palindrome
