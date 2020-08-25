@@ -1,5 +1,9 @@
 # RecursionDp
 ## Out of Input, Question, Output if 2/3 pattern matches, that means somewhere it is repeated
+## How to Identify DP Problem?
+### Problem should have one of below 2 options:
+### 1. Choice OR
+### 2. Optimise (minimum or maximum)
 1. 0/1 Knapsack
 2. Subset sum problem
 3. Equal sum partition
