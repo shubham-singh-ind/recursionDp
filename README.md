@@ -1,4 +1,5 @@
 # RecursionDp
+## Out of Input, Question, Output if 2/3 pattern matches, that means somewhere it is repeated
 1. 0/1 Knapsack
 2. Subset sum problem
 3. Equal sum partition
@@ -11,3 +12,4 @@
 10. Coin Change #2
 11. Longest common subsequence
 12. Longest common substring
+13. Smallest common supersequence
