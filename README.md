@@ -1,6 +1,7 @@
 # RecursionDp
 ## Trick #1: Out of Input, Question, Output if 2/3 pattern matches, that means somewhere it is repeated.
 ## Trick #2: After reading a problem statement instead of jumping directly into coding, WAIT think that related to this problem did you coded something before?
+## Pattern matching: I/P - O/P - PROBLEM STATEMENT (Approx 2/3 can match)
 ## How to Identify DP Problem?
 ### Problem should have one of below 2 options:
 ### 1. Choice OR
