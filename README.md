@@ -21,3 +21,4 @@
 15. LPS (Longest palindromic subsequence)
 16. Minimum number of deletions to make a string palindrome
 17. Shortest common supersequence print
+18. Longest repeating subsequence
