@@ -16,7 +16,8 @@
 10. Coin Change #2
 11. Longest common subsequence
 12. Longest common substring
-13. Smallest common supersequence
+13. Shortest common supersequence
 14. Minimum insertion and deletion required to convert string A to B
 15. LPS (Longest palindromic subsequence)
 16. Minimum number of deletions to make a string palindrome
+17. Shortest common supersequence print
