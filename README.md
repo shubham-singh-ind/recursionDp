@@ -25,3 +25,4 @@
 17. Shortest common supersequence print
 18. Longest repeating subsequence
 19. Sequence pattern matching
+20. Minimum insertion to make string palindrome
