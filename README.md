@@ -26,3 +26,4 @@
 18. Longest repeating subsequence
 19. Sequence pattern matching
 20. Minimum insertion to make string palindrome
+21. Matrix chain multiplication aka MCM
