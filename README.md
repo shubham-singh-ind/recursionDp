@@ -27,4 +27,4 @@
 19. Sequence pattern matching
 20. Minimum insertion to make string palindrome
 21. Matrix chain multiplication aka MCM
-22. Paritioning Problem
+22. Palindrome Paritioning Problem
