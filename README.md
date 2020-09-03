@@ -28,3 +28,4 @@
 20. Minimum insertion to make string palindrome
 21. Matrix chain multiplication aka MCM
 22. Palindrome Paritioning Problem
+23. Scrambled String
